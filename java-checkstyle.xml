@@ -12,22 +12,11 @@
 
     <module name="TreeWalker">
 
-        <!-- http://checkstyle.sf.net/config_naming.html -->
-        <module name="ConstantName"/>
-        <module name="LocalFinalVariableName"/>
-        <module name="LocalVariableName"/>
-        <module name="MemberName"/>
-        <module name="MethodName"/>
-        <module name="PackageName"/>
-        <module name="ParameterName"/>
-        <module name="StaticVariableName"/>
-        <module name="TypeName"/>
 
         <!-- http://checkstyle.sf.net/config_sizes.html -->
-        <module name="LineLength"/>
 		<module name="MethodLength">
 		  <property name="tokens" value="METHOD_DEF"/>
-		  <property name="max" value="60"/>
+		  <property name="max" value="30"/>
 		</module>
 		<module name="ParameterNumber">
 		  <property name="max" value="4"/>
